@@ -1,0 +1,47 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils toucing each other is 400 mm.The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>. What is the wire diameter and the mean coil diameter if their ratio = 1/10",
+            "answers": {
+                "a": "20mm and 200mm",
+                "b": "200mm and 20mm",
+                "c": "10mm and 100mm",
+                "d": "100mm and 10mm"
+            },
+            "explanations": {
+                "a": "Using the formula δ = 64WR<sup>3</sup>n / Cd<sup>4</sup> <br> where W = Weight of load, R = radius of coil , n = number of turns, C = Modulus of Rigidity , d = diameter of wire <br> we get d = 20mm <br> d/D = 0.1,  so D = 200mm."
+            },
+            "correctAnswer": "a",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils toucing each other is 400 mm.The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>. If the gap between the any two adjacent coils is 2 mm, what maximum load can be applied before the spring becomes solid, i.e. adjacent coil touch.",
+            "answers": {
+                "a": "200 N",
+                "b": "400 N",
+                "c": "100 N",
+                "d": "800 N"
+            },
+            "explanations": {
+                "b": "δ = 2xd = 2x20 = 40 mm <br> W/δ = 10 <br> W = 10x40 = 400 N"
+            },
+            "correctAnswer": "b",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils toucing each other is 400 mm.The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>.What is the maximum stress in the spring?",
+            "answers": {
+                "a": "25.46 N/mm<sup>2</sup>",
+                "b": "50.92 N/mm<sup>2</sup>",
+                "c": "101.84 N/mm<sup>2</sup>",
+                "d": "None of the above"
+            },
+            "explanations": {
+                "a": "T = WR = f<sub>s</sub>πd<sup>3</sup> / 16 <br> f<sub>s = 25.46 N/mm<sup>2</sup> "
+            },
+            "correctAnswer": "a",
+            "difficulty": "advanced"
+        }
+
+    ]
+}

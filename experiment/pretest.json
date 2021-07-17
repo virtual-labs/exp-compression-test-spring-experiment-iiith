@@ -1,0 +1,24 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "The helical spring ad wire of helical torsion spring, both are subjected to torsional shear stresses. ",
+            "answers": {
+                "a": "True",
+                "b": "False"
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "When a close-coiled helical spring is subjected to an axial load, it is said to be under.",
+            "answers": {
+                "a": "Bending",
+                "b": "Shear",
+                "c": "Torsion",
+                "d": "Crushing"
+            },
+            "correctAnswer": "c",
+            "difficulty": "intermediate"
+        }
+    ]
+}

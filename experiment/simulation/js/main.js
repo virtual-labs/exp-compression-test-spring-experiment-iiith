@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     const restartButton = document.getElementById('restart');
-    restartButton.addEventListener('click', function() { restart(); });
+    restartButton.addEventListener('click', restart);
 
     const playButton = document.getElementById('play');
-    playButton.addEventListener('click', function() { play(); });
+    playButton.addEventListener('click', play);
 
     const pauseButton = document.getElementById('pause');
-    pauseButton.addEventListener('click', function() { pause(); });
+    pauseButton.addEventListener('click', pause);
 
     const slider = document.getElementById('speed');
     const output = document.getElementById('demo_speed');

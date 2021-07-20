@@ -1,7 +1,7 @@
 {
     "version": 2.0,
     "questions": [{
-            "question": "A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils toucing each other is 400 mm.The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>. What is the wire diameter and the mean coil diameter if their ratio = 1/10",
+            "question": "1. A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils toucing each other is 400 mm.The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>. What is the wire diameter and the mean coil diameter if their ratio = 1/10",
             "answers": {
                 "a": "20mm and 200mm",
                 "b": "200mm and 20mm",
@@ -15,7 +15,7 @@
             "difficulty": "advanced"
         },
         {
-            "question": "A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils toucing each other is 400 mm.The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>. If the gap between the any two adjacent coils is 2 mm, what maximum load can be applied before the spring becomes solid, i.e. adjacent coil touch.",
+            "question": "2. A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils toucing each other is 400 mm.The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>. If the gap between the any two adjacent coils is 2 mm, what maximum load can be applied before the spring becomes solid, i.e. adjacent coil touch.",
             "answers": {
                 "a": "200 N",
                 "b": "400 N",
@@ -29,7 +29,7 @@
             "difficulty": "advanced"
         },
         {
-            "question": "A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils toucing each other is 400 mm.The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>.What is the maximum stress in the spring?",
+            "question": "3. A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils toucing each other is 400 mm.The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>.What is the maximum stress in the spring?",
             "answers": {
                 "a": "25.46 N/mm<sup>2</sup>",
                 "b": "50.92 N/mm<sup>2</sup>",

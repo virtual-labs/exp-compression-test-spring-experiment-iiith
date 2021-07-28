@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "widthMaterial": 15,
     };
     let ratio;
-    let flag = 0;
+    let direction = 0;
     let box = [];
     let end;
     let tmHandle;
@@ -112,21 +112,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
         ctx.moveTo(midX, 0);
         ctx.beginPath();
-        let cn = 0;
-        let f = 0;
+        let countOfTurns = 0;
+        let turn = 0;
         ctx.moveTo(midX, 0);
         ctx.lineTo(midX, topStringLength);
 
         for (let i = 0;; i++) {
-            let x = midX + params["widthString"] * Math.sin(i * Math.PI / 72 * ratio);
-            if (x >= midX && f === 0) {
-                f = 1;
-                cn++;
+            const start = midX + params["widthString"] * Math.sin(i * Math.PI / 72 * ratio);
+            if (start >= midX && turn === 0) {
+                turn = 1;
+                countOfTurns++;
             }
-            if (x < midX) {
-                f = 0;
+            if (start < midX) {
+                turn = 0;
             }
-            if (cn === params["turn"]) {
+            if (countOfTurns === params["turn"]) {
                 end = i + topStringLength;
                 break;
             }
@@ -162,11 +162,11 @@ document.addEventListener('DOMContentLoaded', function() {
     function draw() {
         drawStatic();
         if (ratio <= -2) {
-            flag = 0;
+            direction = 0;
         } else if (ratio >= -1) {
-            flag = 1;
+            direction = 1;
         }
-        if (flag === 0) {
+        if (direction === 0) {
             ratio += 0.1;
             topStringLength += 10;
 

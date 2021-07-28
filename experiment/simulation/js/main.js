@@ -87,19 +87,20 @@ document.addEventListener('DOMContentLoaded', function() {
     let fps = 20;
 
     const midX = canvas.width / 2;
-    let topStringLength = 200;
+    let topStringLength;
     let params = {
         "mass": 150,
         "turn": 4,
         "widthString": 100,
         "widthMaterial": 15,
     };
-    let ratio = -1;
+    let ratio;
     let flag = 0;
     let box = [];
     let end;
     let tmHandle;
 
+    setAll();
     drawStatic();
 
     function drawStatic() {
@@ -153,8 +154,8 @@ document.addEventListener('DOMContentLoaded', function() {
         let stiffness = (params["mass"] * params["mass"]) / deflection;
         stiffness = stiffness.toPrecision(6);
 
-        document.getElementById("deflection").innerHTML = deflection.toString() + " mm";
-        document.getElementById("stiffness").innerHTML = stiffness.toString() + " mm";
+        document.getElementById("deflection").innerHTML = deflection.toString();
+        document.getElementById("stiffness").innerHTML = stiffness.toString();
 
     }
 

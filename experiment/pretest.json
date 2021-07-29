@@ -19,7 +19,7 @@
             },
             "explanations": {
                 "a": "Bending stress is the normal stress that an object encounters when it is subjected to a large load at a particular point that causes the object to bend and become fatigued.",
-                "b": "Shear stress, force tending to cause deformation of a material by slippage along a plane or planes parallel to the imposed stress.",
+                "b": "Shear stress is the force that tends to cause the deformation of a material by slippage along a plane or planes parallel to the imposed stress.",
                 "c": "Torsion stress is the stress caused due to twisting of an object due to an applied torque.",
                 "d": "Crushing stress (bearing stress) is a special type of localized compressive stress which occurs at the surface of contact of two members that are relatively at rest."
             },

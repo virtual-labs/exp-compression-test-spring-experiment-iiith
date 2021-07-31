@@ -1,4 +1,4 @@
-- Springs are elastic memberane which distorts under load and regains its original shape when a load is removed. They are used in railway carriages, motor cars, scooters, motorcycles, rickshaws, etc. According to their uses, the springs perform the following functions:
+- Springs are elastic membranes that distort under load and regain their original shape when the load is removed. They are used in railway carriages, motor cars, scooters, motorcycles, rickshaws, etc. According to their uses, the springs perform the following functions:
   1. Absorb shock or impact loading as in carriage springs.
   2. Store energy as in clock springs.
   3. Apply forces and control motions as in brakes and clutches.

@@ -1,0 +1,30 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "1. Both the helical spring and the wire of the helical torsion spring are subjected to torsional shear stresses.",
+            "answers": {
+                "a": "True",
+                "b": "False"
+            },
+            "correctAnswer": "b",
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. When a close-coiled helical spring is subjected to an axial load, it is said to be under ____ (stress).",
+            "answers": {
+                "a": "Bending",
+                "b": "Shear",
+                "c": "Torsion",
+                "d": "Crushing"
+            },
+            "explanations": {
+                "a": "Bending stress is the normal stress that an object encounters when it is subjected to a large load at a particular point that causes the object to bend and become fatigued.",
+                "b": "Shear stress is the force that tends to cause the deformation of a material by slippage along a plane or planes parallel to the imposed stress.",
+                "c": "Torsion stress is the stress caused due to twisting of an object due to an applied torque.",
+                "d": "Crushing stress (bearing stress) is a special type of localized compressive stress which occurs at the surface of contact of two members that are relatively at rest."
+            },
+            "correctAnswer": "c",
+            "difficulty": "intermediate"
+        }
+    ]
+}

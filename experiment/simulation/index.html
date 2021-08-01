@@ -1,13 +1,65 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<!-- Add CSS at the head of HTML file -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.min.css" />
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<div class="columns is-centered">
+    <div class="column has-text-centered mt-2">
+        <button id="play" class="v-button">Play</button>
+        <button id="pause" class="v-button" disabled>Pause</button>
+        <button id="restart" class="v-button" disabled>Restart</button>
+        <p>Simulation speed: <span id="demo_speed"></span>x</p>
+        <input type="range" min="1" max="8" value="4" class="slider" id="speed">
+    </div>
+</div>
+
+<div class="box">
+    <div class="columns is-centered">
+        <div class="column has-text-centered is-two-fifths">
+            <canvas class="main v-canvas-container" id="main"></canvas>
+            <br>
+        </div>
+        <div class="column has-text-centered">
+            <div class="columns has-text-centered">
+                <div class="column has-text-centered">
+                    <p>Turns(n): <span id="demo_turn"></span></p>
+                    <input type="range" min="1" max="6" value="4" class="slider" id="turn">
+                    <p>Diameter of the Spring Wire(d): <span id="demo_widthMaterial"></span></p>
+                    <input type="range" min="5" max="35" value="20" class="slider" id="widthMaterial">
+                </div>
+                <div class="column has-text-centered">
+                    <p>Diameter of Coil of Spring(D): <span id="demo_widthString"></span></p>
+                    <input type="range" min="50" max="200" value="100" class="slider" id="widthString">
+                    <p>Mass of Box(W): <span id="demo_mass"></span></p>
+                    <input type="range" min="50" max="200" value="150" class="slider" id="mass">
+                </div>
+            </div>
+            <div class="v-table-wrap">
+                <table class="table is-bordered is-fullwidth v-table-primary mb-2">
+                    <thead>
+                        <tr>
+                            <th>Deflection (mm)<br>(8WD<sup>3</sup>n / Gd<sup>4</sup>), G = constant</th>
+                            <th>Stiffness (mm)<br>(W/Deflection)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="deflection">0.0 mm</td>
+                            <td id="stiffness">0.0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/main.js"></script>
 </body>
+
 </html>

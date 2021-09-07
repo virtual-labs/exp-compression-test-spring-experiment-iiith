@@ -1,0 +1,1 @@
+- To determine the deflection, stiffness & strain energy of a coiled spring. 

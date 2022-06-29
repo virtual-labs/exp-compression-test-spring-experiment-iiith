@@ -79,8 +79,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const canvas = document.getElementById("main");
     canvas.width = 900;
-    canvas.height = 1200;
-    canvas.style = "border:3px solid;";
+    canvas.height = 1000;
+    // canvas.style = "border:3px solid;";
     const ctx = canvas.getContext("2d");
 
     const originalfps = 20;

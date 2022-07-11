@@ -26,16 +26,19 @@
                     <div class="v-datalist-title" >Input Parameters</div>
                     
                     <div class="v-datalist-row" id="obs-table">
+                        <strong>
                         <p>Simulation Speed: <span id="demo_speed"></span>x</p>
                         <input type="range" min="1" max="8" value="4" class="slider" id="speed"><br/>
                         <p>Turns(n): <span id="demo_turn"></span></p>
                         <input type="range" min="1" max="6" value="4" class="slider" id="turn"><br/>
-                        <p>Diameter of the Spring Wire(d): <span id="demo_widthMaterial"></span></p>
+                        <p>Mass of Box(W): <span id="demo_mass"></span>kg</p>
+                        <input type="range" min="50" max="200" value="150" class="slider" id="mass"><br/>
+                        <p>Diameter of the Spring Wire(d): <span id="demo_widthMaterial"></span>mm</p>
                         <input type="range" min="5" max="35" value="20" class="slider" id="widthMaterial"><br/>
-                         <p>Diameter of Coil of Spring(D): <span id="demo_widthString"></span></p>
+                         <p>Diameter of Coil of Spring(D): <span id="demo_widthString"></span>mm</p>
                         <input type="range" min="50" max="200" value="100" class="slider" id="widthString"><br/>
-                        <p>Mass of Box(W): <span id="demo_mass"></span></p>
-                        <input type="range" min="50" max="200" value="150" class="slider" id="mass">
+                        
+                        </strong>
                         <!-- <div class="v-table-wrap">
                             <table class="table is-bordered is-fullwidth v-table-primary mb-2 has-text-centered">
                                 <thead>

@@ -1,0 +1,56 @@
+{
+    "version": 2.0,
+    "questions": [{
+            "question": "1. A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils touching each other, is 400 mm. The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>. What is the wire diameter and the mean coil diameter if their ratio = 1/10?",
+            "answers": {
+                "a": "20mm and 200mm",
+                "b": "200mm and 20mm",
+                "c": "10mm and 100mm",
+                "d": "100mm and 10mm"
+            },
+            "explanations": {
+                "a": "Using the formula δ = 64WR<sup>3</sup>n / Cd<sup>4</sup> <br> where W = weight of load, R = radius of coil , n = number of turns, C = modulus of rigidity , d = diameter of wire <br> We get d = 20mm <br> d/D = 0.1,  so D = 200mm.",
+                "b": "Using the formula δ = 64WR<sup>3</sup>n / Cd<sup>4</sup> <br> where W = weight of load, R = radius of coil , n = number of turns, C = modulus of rigidity , d = diameter of wire <br> Also d/D = 0.1.",
+                "c": "Using the formula δ = 64WR<sup>3</sup>n / Cd<sup>4</sup> <br> where W = weight of load, R = radius of coil , n = number of turns, C = modulus of rigidity , d = diameter of wire <br> Also d/D = 0.1.",
+                "d": "Using the formula δ = 64WR<sup>3</sup>n / Cd<sup>4</sup> <br> where W = weight of load, R = radius of coil , n = number of turns, C = modulus of rigidity , d = diameter of wire <br> Also d/D = 0.1."
+            },
+            "correctAnswer": "a",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "2. A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils touching each other, is 400 mm. The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>. If the gap between any two adjacent coils is 2 mm, what maximum load can be applied before the spring becomes solid, i.e., adjacent coils touch?",
+            "answers": {
+                "a": "200 N",
+                "b": "400 N",
+                "c": "100 N",
+                "d": "800 N"
+            },
+            "explanations": {
+                "a": "δ = 2d <br> W/δ = 10",
+                "b": "δ = 2d = 2 * 20 = 40 mm <br> W/δ = 10 <br> W = 10 * 40 = 400 N",
+                "c": "δ = 2d <br> W/δ = 10",
+                "d": "δ = 2d <br> W/δ = 10"
+            },
+            "correctAnswer": "b",
+            "difficulty": "advanced"
+        },
+        {
+            "question": "3. A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils touching each other, is 400 mm. The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>. What is the maximum stress in the spring?",
+            "answers": {
+                "a": "25.46 N/mm<sup>2</sup>",
+                "b": "50.92 N/mm<sup>2</sup>",
+                "c": "101.84 N/mm<sup>2</sup>",
+                "d": "None of the above"
+            },
+            "explanations": {
+                "a": "T = WR = f<sub>s</sub>πd<sup>3</sup> / 16 <br> f<sub>s = 25.46 N/mm<sup>2</sup> ",
+                "b": "T = WR = f<sub>s</sub>πd<sup>3</sup> / 16",
+                "c": "T = WR = f<sub>s</sub>πd<sup>3</sup> / 16",
+                "d": "T = WR = f<sub>s</sub>πd<sup>3</sup> / 16"
+            },
+            "correctAnswer": "a",
+            "difficulty": "advanced"
+        }
+
+    ]
+}

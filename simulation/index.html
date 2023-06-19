@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div id="box">
+        <div class="columns is-centered is-flex">
+            <div class="column mt-2 is-10-desktop is-10-tablet is-10-mobile has-text-centered">
+                <div class="columns is-mobile is-centered is-flex">
+                    <div id="anime-demo" class="column has-text-centered controls">
+                        <button id="play" class="v-button">Play</button>
+                        <button id="pause" class="v-button" disabled>Pause</button>
+                        <button id="restart" class="v-button" disabled>Restart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="columns is-centered is-variable is-flex is-flex-wrap-wrap workspace">
+            <div id="apparatus" class="column has-text-centered is-3-desktop is-5-tablet is-5-mobile apparatus">
+                <div class="v-datalist-container">
+                    <div class="v-datalist-title" >Input Parameters</div>
+                    
+                    <div class="v-datalist-row" id="obs-table">
+                        <strong>
+                        <p>Simulation Speed: <span id="demo_speed"></span>x</p>
+                        <input type="range" min="1" max="8" value="4" class="slider" id="speed"><br/>
+                        <p>Turns(n): <span id="demo_turn"></span></p>
+                        <input type="range" min="1" max="6" value="4" class="slider" id="turn"><br/>
+                        <p>Mass of Box(W): <span id="demo_mass"></span>kg</p>
+                        <input type="range" min="50" max="200" value="150" class="slider" id="mass"><br/>
+                        <p>Diameter of the Spring Wire(d): <span id="demo_widthMaterial"></span>mm</p>
+                        <input type="range" min="5" max="35" value="20" class="slider" id="widthMaterial"><br/>
+                         <p>Diameter of Coil of Spring(D): <span id="demo_widthString"></span>mm</p>
+                        <input type="range" min="50" max="200" value="100" class="slider" id="widthString"><br/>
+                        
+                        </strong>
+                        <!-- <div class="v-table-wrap">
+                            <table class="table is-bordered is-fullwidth v-table-primary mb-2 has-text-centered">
+                                <thead>
+                        <tr>
+                            <th>Deflection (mm)<br>(8WD<sup>3</sup>n / Gd<sup>4</sup>), G = constant</th>
+                            <th>Stiffness (mm)<br>(W/Deflection)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="deflection">0.0 mm</td>
+                            <td id="stiffness">0.0</td>
+                        </tr>
+                    </tbody>
+                            </table>
+                        </div> -->
+                        <div id="result"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div  class="column has-text-centered is-3-desktop is-5-tablet is-5-mobile observations">
+                <div class="v-datalist-container ">
+                    <div class="v-datalist-title">Observations</div>
+                    <div class="v-datalist-row ">
+                        <div class="v-table-wrap">
+                            <div class="column has-text-centered">
+                                <div class="v-table-wrap">
+                                    <table class="table is-bordered is-fullwidth v-table-primary mb-2">
+                                        <thead>
+                                            <tr>
+                                                <th>Deflection (mm)<br>(8WD<sup>3</sup>n / Gd<sup>4</sup>), G = constant</th>
+                                                <th>Stiffness (mm)<br>(W/Deflection)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td id="deflection">0.0 mm</td>
+                                                <td id="stiffness">0.0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>         
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="column has-text-centered is-5-desktop is-10-tablet is-10-mobile simulation" id="container">
+                <div class="v-datalist-container">
+                    <div class="columns">
+                        <div class="column has-text-centered ">
+                            <canvas class="main v-canvas-container" id="main"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+<script src="./js/main.js"></script>
+
+<script src="../assets/js/iframeResize.js"></script></body>
+
+</html>
+
+

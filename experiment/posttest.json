@@ -1,56 +1,158 @@
 {
-    "version": 2.0,
-    "questions": [{
-            "question": "1. A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils touching each other, is 400 mm. The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>. What is the wire diameter and the mean coil diameter if their ratio = 1/10?",
-            "answers": {
-                "a": "20mm and 200mm",
-                "b": "200mm and 20mm",
-                "c": "10mm and 100mm",
-                "d": "100mm and 10mm"
-            },
-            "explanations": {
-                "a": "Using the formula δ = 64WR<sup>3</sup>n / Cd<sup>4</sup> <br> where W = weight of load, R = radius of coil , n = number of turns, C = modulus of rigidity , d = diameter of wire <br> We get d = 20mm <br> d/D = 0.1,  so D = 200mm.",
-                "b": "Using the formula δ = 64WR<sup>3</sup>n / Cd<sup>4</sup> <br> where W = weight of load, R = radius of coil , n = number of turns, C = modulus of rigidity , d = diameter of wire <br> Also d/D = 0.1.",
-                "c": "Using the formula δ = 64WR<sup>3</sup>n / Cd<sup>4</sup> <br> where W = weight of load, R = radius of coil , n = number of turns, C = modulus of rigidity , d = diameter of wire <br> Also d/D = 0.1.",
-                "d": "Using the formula δ = 64WR<sup>3</sup>n / Cd<sup>4</sup> <br> where W = weight of load, R = radius of coil , n = number of turns, C = modulus of rigidity , d = diameter of wire <br> Also d/D = 0.1."
-            },
-            "correctAnswer": "a",
-            "difficulty": "advanced"
-        },
-        {
-            "question": "2. A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils touching each other, is 400 mm. The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>. If the gap between any two adjacent coils is 2 mm, what maximum load can be applied before the spring becomes solid, i.e., adjacent coils touch?",
-            "answers": {
-                "a": "200 N",
-                "b": "400 N",
-                "c": "100 N",
-                "d": "800 N"
-            },
-            "explanations": {
-                "a": "δ = 2d <br> W/δ = 10",
-                "b": "δ = 2d = 2 * 20 = 40 mm <br> W/δ = 10 <br> W = 10 * 40 = 400 N",
-                "c": "δ = 2d <br> W/δ = 10",
-                "d": "δ = 2d <br> W/δ = 10"
-            },
-            "correctAnswer": "b",
-            "difficulty": "advanced"
-        },
-        {
-            "question": "3. A close helical spring has a stiffness of 10 N/mm. Its length when fully compressed, with adjacent coils touching each other, is 400 mm. The modulus of rigidity of the material of the spring is 8 x 10<sup>4</sup> N/mm<sup>2</sup>. What is the maximum stress in the spring?",
-            "answers": {
-                "a": "25.46 N/mm<sup>2</sup>",
-                "b": "50.92 N/mm<sup>2</sup>",
-                "c": "101.84 N/mm<sup>2</sup>",
-                "d": "None of the above"
-            },
-            "explanations": {
-                "a": "T = WR = f<sub>s</sub>πd<sup>3</sup> / 16 <br> f<sub>s = 25.46 N/mm<sup>2</sup> ",
-                "b": "T = WR = f<sub>s</sub>πd<sup>3</sup> / 16",
-                "c": "T = WR = f<sub>s</sub>πd<sup>3</sup> / 16",
-                "d": "T = WR = f<sub>s</sub>πd<sup>3</sup> / 16"
-            },
-            "correctAnswer": "a",
-            "difficulty": "advanced"
-        }
-
-    ]
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which property of a spring is determined from the slope of the Load–Deflection graph?",
+      "answers": {
+        "a": "Young's modulus",
+        "b": "Spring stiffness",
+        "c": "Poisson's ratio",
+        "d": "Yield strength"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner",
+      "explanations": {
+        "a": "Incorrect. Young's modulus is a material property obtained from stress–strain tests.",
+        "b": "Correct. The slope of the Load–Deflection graph represents the spring stiffness (spring constant).",
+        "c": "Incorrect. Poisson's ratio is not obtained from the Load–Deflection graph.",
+        "d": "Incorrect. Yield strength cannot be determined from this experiment."
+      }
+    },
+    {
+      "question": "2. When the applied load on a spring is doubled within the elastic limit, the deflection will:",
+      "answers": {
+        "a": "Double",
+        "b": "Remain unchanged",
+        "c": "Become four times",
+        "d": "Reduce by half"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner",
+      "explanations": {
+        "a": "Correct. According to Hooke's law, deflection is directly proportional to the applied load within the elastic range.",
+        "b": "Incorrect. Deflection changes with the applied load.",
+        "c": "Incorrect. The relationship is linear within the elastic limit.",
+        "d": "Incorrect. Increasing the load does not reduce the deflection."
+      }
+    },
+    {
+      "question": "3. The energy stored in a compressed spring is called:",
+      "answers": {
+        "a": "Kinetic energy",
+        "b": "Potential energy due to gravity",
+        "c": "Strain energy",
+        "d": "Thermal energy"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner",
+      "explanations": {
+        "a": "Incorrect. Kinetic energy is associated with motion.",
+        "b": "Incorrect. Gravitational potential energy is unrelated to spring deformation.",
+        "c": "Correct. A spring stores elastic strain energy when compressed.",
+        "d": "Incorrect. Thermal energy is not the quantity measured in this experiment."
+      }
+    },
+    {
+      "question": "4. If two springs are made from the same material and have the same dimensions except that one has a larger wire diameter, that spring will generally be:",
+      "answers": {
+        "a": "Less stiff",
+        "b": "More flexible",
+        "c": "Unable to store energy",
+        "d": "Stiffer"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate",
+      "explanations": {
+        "a": "Incorrect. Increasing the wire diameter increases spring stiffness.",
+        "b": "Incorrect. A larger wire diameter makes the spring stiffer, not more flexible.",
+        "c": "Incorrect. The spring continues to store strain energy.",
+        "d": "Correct. A thicker spring wire increases the stiffness of the spring."
+      }
+    },
+    {
+      "question": "5. Which instrument is commonly used to measure the diameter of the spring wire?",
+      "answers": {
+        "a": "Micrometer",
+        "b": "Spring balance",
+        "c": "Steel rule",
+        "d": "Dial gauge"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate",
+      "explanations": {
+        "a": "Correct. A micrometer provides accurate measurement of the spring wire diameter.",
+        "b": "Incorrect. A spring balance measures force.",
+        "c": "Incorrect. A steel rule is not sufficiently precise for measuring wire diameter.",
+        "d": "Incorrect. A dial gauge is used to measure displacement."
+      }
+    },
+    {
+      "question": "6. Which material property is used in the theoretical deflection equation of a close-coiled helical spring?",
+      "answers": {
+        "a": "Young's modulus",
+        "b": "Bulk modulus",
+        "c": "Modulus of rigidity",
+        "d": "Density"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate",
+      "explanations": {
+        "a": "Incorrect. Young's modulus is not directly used in the spring deflection equation.",
+        "b": "Incorrect. Bulk modulus relates to volumetric compression.",
+        "c": "Correct. The deflection equation uses the modulus of rigidity because the spring wire is subjected mainly to torsion.",
+        "d": "Incorrect. Density does not determine spring deflection."
+      }
+    },
+    {
+      "question": "7. A spring is subjected to a load of 240 N and undergoes a deflection of 24 mm. What is the spring stiffness?",
+      "answers": {
+        "a": "8 N/mm",
+        "b": "10 N/mm",
+        "c": "12 N/mm",
+        "d": "24 N/mm"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced",
+      "explanations": {
+        "a": "Incorrect. This value does not satisfy the relation between load and deflection.",
+        "b": "Correct. Spring stiffness = Load ÷ Deflection = 240 ÷ 24 = 10 N/mm.",
+        "c": "Incorrect. This value is greater than the calculated stiffness.",
+        "d": "Incorrect. This value is obtained by an incorrect calculation."
+      }
+    },
+    {
+      "question": "8. If the spring stiffness increases while the applied load remains constant, the spring deflection will:",
+      "answers": {
+        "a": "Increase",
+        "b": "Remain unchanged",
+        "c": "Decrease",
+        "d": "Become zero"
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced",
+      "explanations": {
+        "a": "Incorrect. A stiffer spring undergoes less deflection under the same load.",
+        "b": "Incorrect. Deflection depends on both load and stiffness.",
+        "c": "Correct. Since deflection equals load divided by stiffness, increasing stiffness reduces deflection.",
+        "d": "Incorrect. The spring will still deform under load."
+      }
+    },
+    {
+      "question": "9. Why is the Load–Deflection relationship verified only within the elastic limit of the spring?",
+      "answers": {
+        "a": "Because permanent deformation may occur beyond the elastic limit.",
+        "b": "Because the spring becomes weightless.",
+        "c": "Because torsional stress becomes zero.",
+        "d": "Because the modulus of rigidity becomes infinite."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced",
+      "explanations": {
+        "a": "Correct. Beyond the elastic limit, the spring may undergo permanent deformation and no longer obey Hooke's law.",
+        "b": "Incorrect. The weight of the spring is unaffected by loading.",
+        "c": "Incorrect. Torsional stress does not become zero under loading.",
+        "d": "Incorrect. The modulus of rigidity is a material property and does not become infinite."
+      }
+    }
+  ]
 }

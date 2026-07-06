@@ -1,4 +1,4 @@
-**Procedure**
+### Procedure
 
 1. Measure the diameter of the spring wire using a micrometer.
 2. Measure the mean diameter of the spring coils using a vernier caliper.
@@ -7,9 +7,7 @@
 5. Increase the load gradually and record the corresponding deflection for each load increment.
 6. Plot a graph between load and deflection. The slope of the graph represents the stiffness (spring constant) of the spring.
 
----
-
-**Virtual Procedure**
+### Virtual Procedure
 
 1. Start the experiment by clicking the **Play** button.
 2. Observe the compression behaviour of the spring in the simulation window.

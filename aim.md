@@ -1,0 +1,1 @@
+To study the compression behaviour of a close-coiled helical spring under gradually increasing axial load and determine its stiffness (spring constant), deflection, and strain energy stored within the elastic limit.

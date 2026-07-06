@@ -1,30 +1,154 @@
 {
-    "version": 2.0,
-    "questions": [{
-            "question": "1. Both the helical spring and the wire of the helical torsion spring are subjected to torsional shear stresses.",
-            "answers": {
-                "a": "True",
-                "b": "False"
-            },
-            "correctAnswer": "b",
-            "difficulty": "beginner"
-        },
-        {
-            "question": "2. When a close-coiled helical spring is subjected to an axial load, it is said to be under ____ (stress).",
-            "answers": {
-                "a": "Bending",
-                "b": "Shear",
-                "c": "Torsion",
-                "d": "Crushing"
-            },
-            "explanations": {
-                "a": "Bending stress is the normal stress that an object encounters when it is subjected to a large load at a particular point that causes the object to bend and become fatigued.",
-                "b": "Shear stress is the force that tends to cause the deformation of a material by slippage along a plane or planes parallel to the imposed stress.",
-                "c": "Torsion stress is the stress caused due to twisting of an object due to an applied torque.",
-                "d": "Crushing stress (bearing stress) is a special type of localized compressive stress which occurs at the surface of contact of two members that are relatively at rest."
-            },
-            "correctAnswer": "c",
-            "difficulty": "intermediate"
-        }
-    ]
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The primary purpose of a compression spring is to:",
+      "answers": {
+        "a": "Store and release elastic energy",
+        "b": "Increase electrical conductivity",
+        "c": "Measure temperature",
+        "d": "Reduce material hardness"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner",
+      "explanations": {
+        "a": "Correct. Compression springs store elastic strain energy when compressed and release it when the load is removed.",
+        "b": "Incorrect. Compression springs are mechanical components and are not intended to improve electrical conductivity.",
+        "c": "Incorrect. Compression springs do not function as temperature-measuring devices.",
+        "d": "Incorrect. Springs do not change the hardness of a material."
+      }
+    },
+    {
+      "question": "2. Within the elastic limit, the load applied to a spring is directly proportional to its deflection.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner",
+      "explanations": {
+        "a": "Correct. This is the statement of Hooke's law for linear elastic springs.",
+        "b": "Incorrect. Within the elastic range, load and deflection are directly proportional."
+      }
+    },
+    {
+      "question": "3. The SI unit of spring stiffness is:",
+      "answers": {
+        "a": "N",
+        "b": "N/mm",
+        "c": "MPa",
+        "d": "J"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner",
+      "explanations": {
+        "a": "Incorrect. Newton is the unit of force only.",
+        "b": "Correct. Spring stiffness is expressed as force per unit deflection.",
+        "c": "Incorrect. MPa is a unit of stress.",
+        "d": "Incorrect. Joule is the unit of energy."
+      }
+    },
+    {
+      "question": "4. In a close-coiled helical compression spring, the spring wire is primarily subjected to:",
+      "answers": {
+        "a": "Direct tension",
+        "b": "Direct compression",
+        "c": "Torsional shear",
+        "d": "Pure bending"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate",
+      "explanations": {
+        "a": "Incorrect. The wire does not experience direct tensile loading.",
+        "b": "Incorrect. Although the spring is compressed, the wire primarily undergoes twisting.",
+        "c": "Correct. The applied axial load produces torsional shear stress in the spring wire.",
+        "d": "Incorrect. Pure bending is not the primary mode of loading."
+      }
+    },
+    {
+      "question": "5. Spring stiffness is calculated as:",
+      "answers": {
+        "a": "Load × Deflection",
+        "b": "Load ÷ Deflection",
+        "c": "Deflection ÷ Load",
+        "d": "Load² ÷ Deflection"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate",
+      "explanations": {
+        "a": "Incorrect. Multiplying load and deflection gives energy-related quantities.",
+        "b": "Correct. Spring stiffness equals applied load divided by the corresponding deflection.",
+        "c": "Incorrect. This represents compliance, not stiffness.",
+        "d": "Incorrect. This expression is not used for spring stiffness."
+      }
+    },
+    {
+      "question": "6. Which graph is commonly plotted in this experiment?",
+      "answers": {
+        "a": "Stress–Strain",
+        "b": "Load–Deflection",
+        "c": "Torque–Twist",
+        "d": "Load–Time"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate",
+      "explanations": {
+        "a": "Incorrect. Stress–strain graphs are obtained from tensile or compression tests on materials.",
+        "b": "Correct. A Load–Deflection graph is used to determine spring stiffness.",
+        "c": "Incorrect. Torque–Twist graphs are used in torsion testing.",
+        "d": "Incorrect. Load–Time graphs are not used in this experiment."
+      }
+    },
+    {
+      "question": "7. Increasing the wire diameter while keeping other parameters unchanged generally makes the spring:",
+      "answers": {
+        "a": "Less stiff",
+        "b": "More stiff",
+        "c": "Unaffected",
+        "d": "Impossible to compress"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced",
+      "explanations": {
+        "a": "Incorrect. A thicker wire increases spring stiffness.",
+        "b": "Correct. Increasing wire diameter significantly increases the stiffness of a helical spring.",
+        "c": "Incorrect. Wire diameter has a strong influence on stiffness.",
+        "d": "Incorrect. The spring remains compressible within its design limits."
+      }
+    },
+    {
+      "question": "8. The area under the Load–Deflection curve represents:",
+      "answers": {
+        "a": "Stress",
+        "b": "Spring stiffness",
+        "c": "Strain energy stored",
+        "d": "Young's modulus"
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced",
+      "explanations": {
+        "a": "Incorrect. Stress is calculated from force and cross-sectional area.",
+        "b": "Incorrect. Stiffness is the slope of the graph.",
+        "c": "Correct. The area under the Load–Deflection curve represents the strain energy stored in the spring.",
+        "d": "Incorrect. Young's modulus is a material property obtained from stress–strain data."
+      }
+    },
+    {
+      "question": "9. Which material property is commonly used in the deflection equation of a close-coiled helical spring?",
+      "answers": {
+        "a": "Bulk modulus",
+        "b": "Modulus of rigidity",
+        "c": "Poisson's ratio only",
+        "d": "Density"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced",
+      "explanations": {
+        "a": "Incorrect. Bulk modulus relates to volumetric compression.",
+        "b": "Correct. The spring deflection equation uses the modulus of rigidity (shear modulus).",
+        "c": "Incorrect. Poisson's ratio alone is not used in the spring deflection equation.",
+        "d": "Incorrect. Density does not determine spring stiffness."
+      }
+    }
+  ]
 }
